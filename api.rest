@@ -1,0 +1,19 @@
+POST http://localhost:1323/item
+Content-Type: application/json
+
+{
+  "text": "res"
+}
+
+####
+
+PUT http://localhost:1323/item/5
+Content-Type: application/json
+
+{
+  "text": "updated, :::::: HAHA"
+}
+
+### DELETE
+
+DELETE http://localhost:1323/item/2
